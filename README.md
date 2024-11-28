@@ -17,8 +17,8 @@ Com esse projeto busquei recriar o jogo utilizando JavaScript, para ser jogado a
 
 # Contato
 Estou sempre aberta a novas oportunidades de colaboração e aprendizado. Você pode me encontrar em:
-# E-mail: thatianecosta09@gmail.com
+E-mail: thainacosta11@gmail.com
 LinkedIn: <a href= "https://www.linkedin.com/in/thainacostaj" target="_blank"> LinkedIn</a>
 
-Acesse <a href= "" target="_blank"> Meu Portfólio</a>
+Acesse <a href= "https://thainacosta2.github.io/Portfolio/" target="_blank"> Meu Portfólio</a>
 Obrigado por visitar meu portfólio! Sinta-se à vontade para explorar meus projetos e entrar em contato.
