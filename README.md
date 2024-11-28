@@ -1,4 +1,4 @@
-# Portfolio
+# Portfólio
 
 Olá, seja bem-vindo ao meu portfólio! Este repositório contém projetos que eu desenvolvi ao longo da minha trajetória como desenvolvedora júnior. Aqui, você encontrará uma seleção de trabalhos que demonstram minhas habilidades e experiências naa área da tecnologia.
 
@@ -17,8 +17,10 @@ Com esse projeto busquei recriar o jogo utilizando JavaScript, para ser jogado a
 
 # Contato
 Estou sempre aberta a novas oportunidades de colaboração e aprendizado. Você pode me encontrar em:
-E-mail: thainacosta11@gmail.com
-LinkedIn: <a href= "https://www.linkedin.com/in/thainacostaj" target="_blank"> LinkedIn</a>
+# E-mail: 
+thainacosta11@gmail.com
+# LinkedIn: 
+<a href= "https://www.linkedin.com/in/thainacostaj" target="_blank"> LinkedIn</a>
 
-Acesse <a href= "https://thainacosta2.github.io/Portfolio/" target="_blank"> Meu Portfólio</a>
+Acesse <a href= "https://thainacosta2.github.io/Portfolio/" target="_blank"> Meu Portfólio</a>!
 Obrigado por visitar meu portfólio! Sinta-se à vontade para explorar meus projetos e entrar em contato.
