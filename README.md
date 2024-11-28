@@ -14,6 +14,8 @@ Com esse projeto de Formulário de Agendamento de Consulta, em que há o cadastr
 O projeto consiste na construção do clássico "Jogo da Cobrinha", popularizado por celulares da Nokia que vinham com o jogo já instalado.
 O objetivo é coletar a bola para fazer a cobra crescer, evitando colisões com as paredes e com o próprio corpo.
 Com esse projeto busquei recriar o jogo utilizando JavaScript, para ser jogado através do seu navegador.
+Clique aqui para acessar o link do jogo ➡️<a href= "https://thainacosta2.github.io/Snake-Game-JavaScript/" target="_blank">Snake Game</a>
+
 
 # Contato
 Estou sempre aberta a novas oportunidades de colaboração e aprendizado. Você pode me encontrar em:
