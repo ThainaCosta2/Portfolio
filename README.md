@@ -4,6 +4,11 @@ Olá, seja bem-vindo ao meu portfólio! Este repositório contém projetos que e
 
 Sou a Thainá Costa, desenvolvedora júnior, com conhecimento em Python, JavaScript e Java. Sou apaixonada pela tecnologia e a programação, e busco constantemente aprender e crescer em minha carreira.
 
+Acesse <a href= "https://thainacosta2.github.io/Portfolio/" target="_blank"> Meu Portfólio</a>!🌐
+<div>
+  <li>Obrigado por visitar meu portfólio! Sinta-se à vontade para explorar meus projetos e entrar em contato.</li>
+</div>
+
 # Projetos 💻</> 
 
 # Calculadora de IMC 🖩
@@ -39,13 +44,9 @@ As seguintes ferramentas foram utilizadas na construção do projeto:
 
 # Contato
 Estou sempre aberta a novas oportunidades de colaboração e aprendizado. Você pode me encontrar em:
-# E-mail: 📧
-thainacosta11@gmail.com
 
 # LinkedIn: 🔗
-<a href= "https://www.linkedin.com/in/thainacostaj" target="_blank"> Meu LinkedIn</a> <i class='bx bxl-linkedin-square' style='color:#4098fc'></i>
+<a href= "https://www.linkedin.com/in/thainacostaj" target="_blank"> Meu LinkedIn</a>
 
-Acesse 🌐<a href= "https://thainacosta2.github.io/Portfolio/" target="_blank"> Meu Portfólio</a>!
-<div>
-  <li>Obrigado por visitar meu portfólio! Sinta-se à vontade para explorar meus projetos e entrar em contato.</li>
-</div>
+# E-mail: 📧
+thainacosta11@gmail.com
