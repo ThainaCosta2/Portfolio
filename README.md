@@ -1,52 +1,42 @@
 # Portfólio 👩🏻‍💻
 
-Olá, seja bem-vindo ao meu portfólio! Este repositório contém projetos que eu desenvolvi ao longo da minha trajetória como desenvolvedora júnior. Aqui, você encontrará uma seleção de trabalhos que demonstram minhas habilidades e experiências naa área da tecnologia.
+Olá, sejam bem-vindo ao meu portfólio! Sou a Thainá Costa, desenvolvedora júnior, com conhecimento em Python, JavaScript e Java. Sou apaixonada pela tecnologia e a programação, e busco constantemente aprender e crescer em minha carreira.
 
-Sou a Thainá Costa, desenvolvedora júnior, com conhecimento em Python, JavaScript e Java. Sou apaixonada pela tecnologia e a programação, e busco constantemente aprender e crescer em minha carreira.
+Acesse <a href= "https://thainacosta2.github.io/Portfolio/" target="_blank"> Meu Portfólio</a> 🌐
 
-Acesse <a href= "https://thainacosta2.github.io/Portfolio/" target="_blank"> Meu Portfólio</a>!🌐
+# Projeto 💻</> 
+Este é o meu primeiro portfólio, onde implementei conceitos de front-end. Neste espeço você poderá encontrar algumas informações sobre mim, além de alguns projetos realizados ao longo da minha jornada como desenvolvedora júnior, destacando as principais tecnologias que utilizo. Também disponibilizei links para minhas redes sociais e acesso aos meus repositórios no GitHub, onde você pode visualizar todos os meus projetos.
+
+# Seção: 📌
+O site é estruturado por seções:
+- **Ínicio:** Uma breve introdução que destaca quem sou e o que você pode esperar encontrar por aqui.
+- **Sobre:** Aqui, compartilho um pouco da minha história e trajetória, revelando minha paixão pela tecnologia e meu caminho até aqui.
+- **Especialidade:** Nesta seção, descrevo brevemente as áreas em que possuo conhecimento, destacando minhas competências em cada uma delas.
+- **Projeto:**  Uma apresentação dos projetos que desenvolvi, com links no GitHub, permitindo uma análise mais detalhada do meu trabalho.
+- **Habilidades:** Esta seção destaca minhas habilidades em algumas linguagens de programação, mostrando o alcance do meu aprendizado.
+- **Contato:** Um espaço onde você pode me enviar um e-mail, seja para sugestões, dicas ou qualquer outro assunto relacionado ao portfólio.
+
+
+# Funcionalidades: ⚙️
 <div>
-  <li>Obrigado por visitar meu portfólio! Sinta-se à vontade para explorar meus projetos e entrar em contato.</li>
+  <li>Troca de tema (Light mode e Dark mode)</li>
+  <li>Navegação dinâmica</li>
+  <li>Um formulário de e-mail funcional</li>
+  <li>Links ativos</li>
 </div>
-
-# Projetos 💻</> 
-
-# Calculadora de IMC 🖩
-Com esse projeto o usuário poderá inserir seu peso e altura, para calcular seu IMC e exibir o resultado em uma janela gráfica. Após calcular o IMC, é possível criar uma função que interpreta o resultado e exibe uma mensagem indicando em qual faixa de classificação o usuário se encontra.
-
-# Formulário de Agendamento 📄
-Com esse projeto de Formulário de Agendamento de Consulta, em que há o cadastro do cliente e controle por parte do admin.
-
-# Snake Game 🐍
-O projeto consiste na construção do clássico "Jogo da Cobrinha", popularizado por celulares da Nokia que vinham com o jogo já instalado.
-O objetivo é coletar a bola para fazer a cobra crescer, evitando colisões com as paredes e com o próprio corpo.
-Com esse projeto busquei recriar o jogo utilizando JavaScript, para ser jogado através do seu navegador.
-Clique aqui para acessar o link do jogo ➡️🎮<a href= "https://thainacosta2.github.io/Snake-Game-JavaScript/" target="_blank">Snake Game</a>
 
 # Tecnologias ⚙️
 As seguintes ferramentas foram utilizadas na construção do projeto:
-<table>
-  <thead>
-    <th>Fronnt-end</th>
-  </thead>
-  <tbody>
-    <tr>
-      <td>HTML</td>
-    </tr>
-    <tr>
-    <td>CSS</td>
-    </tr>
-    <tr>
-      <td>JavaScript</td>
-    </tr>
-  </tbody>
-</table>
+- **Front-end**
+- **HTML**
+- **CSS**
+- **JavaScript**
 
 # Contato
-Estou sempre aberta a novas oportunidades de colaboração e aprendizado. Você pode me encontrar em:
+Estou sempre aberta a novas oportunidades de colaboração e aprendizado. Agradeço sua visita! Sinta-se à vontade para explorar meus projetos e entrar em contato. Você pode me encontrar em:
 
-# LinkedIn: 🔗
+LinkedIn: 🔗
 <a href= "https://www.linkedin.com/in/thainacostaj" target="_blank"> Meu LinkedIn</a>
 
-# E-mail: 📧
+E-mail: 📧
 thainacosta11@gmail.com
