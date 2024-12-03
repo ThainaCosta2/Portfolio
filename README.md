@@ -25,14 +25,14 @@ O site é estruturado por seções:
   <li>Links ativos</li>
 </div>
 
-# Tecnologias ⚙️
+# Tecnologias 🛠
 As seguintes ferramentas foram utilizadas na construção do projeto:
 - **Front-end**
 - **HTML**
 - **CSS**
 - **JavaScript**
 
-# Contato
+# Contato 📱
 Estou sempre aberta a novas oportunidades de colaboração e aprendizado. Agradeço sua visita! Sinta-se à vontade para explorar meus projetos e entrar em contato. Você pode me encontrar em:
 
 LinkedIn: 🔗
