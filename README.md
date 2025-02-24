@@ -39,7 +39,7 @@ As seguintes ferramentas foram utilizadas na construção do projeto:
 Estou sempre aberta a novas oportunidades de colaboração e aprendizado. Agradeço sua visita! Sinta-se à vontade para explorar meus projetos e entrar em contato. Você pode me encontrar em:
 
 LinkedIn: 🔗
-<a href= "https://www.linkedin.com/in/thainacostaj" target="_blank"> LinkedIn</a>
+<a href= "https://www.linkedin.com/in/thainacostaj" target="_blank"> Thainá Costa</a>
 
 E-mail: 📧
 thainacosta11@gmail.com
