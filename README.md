@@ -7,7 +7,7 @@ Acesse <a href= "https://thainacosta2.github.io/Portfolio/" target="_blank"> Meu
 <div>
 <img src="Portfolio Imagens/portfóliohome.png" width="800px" />
 
-# Projeto 💻</> 
+# Sobre o Projeto 💻</> 
 Este é o meu primeiro portfólio, onde implementei conceitos de front-end. Neste espeço você poderá encontrar algumas informações sobre mim, além de alguns projetos realizados ao longo da minha jornada como desenvolvedora júnior, destacando as principais tecnologias que utilizo. Também disponibilizei links para minhas redes sociais e acesso aos meus repositórios no GitHub, onde você pode visualizar todos os meus projetos.
 
 # Seção: 📌
@@ -39,7 +39,7 @@ As seguintes ferramentas foram utilizadas na construção do projeto:
 Estou sempre aberta a novas oportunidades de colaboração e aprendizado. Agradeço sua visita! Sinta-se à vontade para explorar meus projetos e entrar em contato. Você pode me encontrar em:
 
 LinkedIn: 🔗
-<a href= "https://www.linkedin.com/in/thainacostaj" target="_blank"> Meu LinkedIn</a>
+<a href= "https://www.linkedin.com/in/thainacostaj" target="_blank"> LinkedIn</a>
 
 E-mail: 📧
 thainacosta11@gmail.com
