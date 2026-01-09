@@ -9,7 +9,7 @@ Acesse <a href= "https://thainacosta2.github.io/Portfolio/" target="_blank"> Meu
 </div>
 
 # Sobre o Projeto 💻</> 
-Este é o meu primeiro portfólio, onde implementei conceitos de front-end. Neste espeço você poderá encontrar algumas informações sobre mim, além de alguns projetos realizados ao longo da minha jornada como desenvolvedora júnior, destacando as principais tecnologias que utilizo. Também disponibilizei links para minhas redes sociais e acesso aos meus repositórios no GitHub, onde você pode visualizar todos os meus projetos
+Este é o meu primeiro portfólio, onde implementei conceitos de front-end. Neste espeço você poderá encontrar algumas informações sobre mim, além de alguns projetos realizados ao longo da minha jornada como desenvolvedora júnior, destacando as principais tecnologias que utilizo. Também disponibilizei links para minhas redes sociais e acesso aos meus repositórios no GitHub, onde você pode visualizar todos os meus projetos.
 
 # Seção: 📌
 O site é estruturado por seções:
