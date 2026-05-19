@@ -1,6 +1,6 @@
 # Portfólio 👩🏻‍💻
 
-Olá, sejam bem-vindo ao meu portfólio! Me chamo Thainá Costa, desenvolvedora júnior, com conhecimento em Python, SQL e JavaScript. Sou apaixonada pela tecnologia e a programação, e busco constantemente aprender e crescer em minha carreira.
+Olá, sejam bem-vindo ao meu portfólio! Me chamo Thainá Costa, e atualmente estou cursando pós-graduação em Ciências de Dados. Possuo conhecimento em Python, SQL, Power BI e JavaScript. Sou apaixonada por tecnologia, e estou sempre buscando aprender e crescer na minha carreira.
 
 Acesse <a href= "https://thainacosta2.github.io/Portfolio/" target="_blank"> Meu Portfólio</a> 🌐
 
