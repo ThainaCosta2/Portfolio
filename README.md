@@ -1,6 +1,6 @@
 # Portfólio 👩🏻‍💻
 
-Olá, sejam bem-vindo ao meu portfólio! Me chamo Thainá Costa, e atualmente estou cursando pós-graduação em Ciências de Dados. Possuo conhecimento em Python, SQL, Power BI e JavaScript. Sou apaixonada por tecnologia, e estou sempre buscando aprender e crescer na minha carreira
+Olá, sejam bem-vindo ao meu portfólio! Me chamo Thainá Costa, e atualmente estou cursando pós-graduação em Ciências de Dados. Possuo conhecimento em Python, SQL, Power BI e JavaScript. Sou apaixonada por tecnologia, e estou sempre buscando aprender e crescer na minha carreira.
 
 Acesse <a href= "https://thainacosta2.github.io/Portfolio/" target="_blank"> Meu Portfólio</a> 🌐
 
