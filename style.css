@@ -150,6 +150,8 @@ section {
 .home {
     display: flex;
     align-items: center;
+    position: relative; /* Garante o alinhamento correto */
+    overflow: hidden;  /* CORTA O VAZAMENTO PARA A SEÇÃO "SOBRE" */
 }
 
 .home .home-content {
@@ -241,18 +243,18 @@ section {
 .home .profession-container .overlay {
     position: absolute;
     top: 0;
-    right: 0;
+    right: -100px; /* Avança 100px para fora da tela na direita, fechando a fresta branca */
     width: 0;
     height: 0;
-    border-top: 384px solid var(--main-color);
-    border-right: 384px solid var(--main-color);
-    border-bottom: 384px solid var(--main-color);
-    border-left: 384px solid transparent;
+    border-top: 500px solid var(--main-color); /* Aumentado para cobrir toda a altura */
+    border-right: 500px solid var(--main-color); /* Aumentado para encostar e passar da borda */
+    border-bottom: 500px solid var(--main-color); /* Aumentado para cobrir toda a altura */
+    border-left: 500px solid transparent;
 }
 
 .home-img img {
     position: absolute;
-    bottom: 0;
+    bottom: 2rem; /* <--- Altere aqui para subir o GIF */
     right: 0;
     width: 100%;
     pointer-events: none;
@@ -947,4 +949,43 @@ section {
         font-size: 1.8rem;
         text-align: justify;
     }
+}
+
+/* Container do Arco e da Profissão - SOLUÇÃO DEFINITIVA */
+.profession-container {
+    position: absolute;
+    top: 50%;
+    right: -280px; /* Puxa o arco inteiro para a direita, deixando espaço limpo na esquerda */
+    transform: translateY(-50%);
+    width: 768px;
+    height: 768px;
+    overflow: visible !important; /* Libera qualquer corte no texto/arco */
+    pointer-events: none;
+    z-index: 5;
+}
+
+.profession-container .profession-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid var(--main-color, #c20067);
+}
+
+.profession-box .profession {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    /* Alinha o texto perfeitamente na borda esquerda do arco */
+    transform: translate(-50%, -50%); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--main-color, #c20067);
+    background-color: #ffffff; /* Fundo branco pra cobrir a linha sob as letras */
+    padding: 6px 12px;
+    border-radius: 8px;
+    pointer-events: auto;
+    text-align: center;
+    white-space: nowrap;
 }
