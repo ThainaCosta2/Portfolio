@@ -150,8 +150,8 @@ section {
 .home {
     display: flex;
     align-items: center;
-    position: relative; /* Garante o alinhamento correto */
-    overflow: hidden;  /* CORTA O VAZAMENTO PARA A SEÇÃO "SOBRE" */
+    position: relative; 
+    overflow: hidden;  
 }
 
 .home .home-content {
@@ -243,18 +243,18 @@ section {
 .home .profession-container .overlay {
     position: absolute;
     top: 0;
-    right: -100px; /* Avança 100px para fora da tela na direita, fechando a fresta branca */
+    right: -100px; 
     width: 0;
     height: 0;
-    border-top: 500px solid var(--main-color); /* Aumentado para cobrir toda a altura */
-    border-right: 500px solid var(--main-color); /* Aumentado para encostar e passar da borda */
-    border-bottom: 500px solid var(--main-color); /* Aumentado para cobrir toda a altura */
+    border-top: 500px solid var(--main-color); 
+    border-right: 500px solid var(--main-color); 
+    border-bottom: 500px solid var(--main-color); 
     border-left: 500px solid transparent;
 }
 
 .home-img img {
     position: absolute;
-    bottom: 2rem; /* <--- Altere aqui para subir o GIF */
+    bottom: 2rem;
     right: 0;
     width: 100%;
     pointer-events: none;
@@ -951,15 +951,15 @@ section {
     }
 }
 
-/* Container do Arco e da Profissão - SOLUÇÃO DEFINITIVA */
+/* Container do Arco e da Profissão */
 .profession-container {
     position: absolute;
     top: 50%;
-    right: -280px; /* Puxa o arco inteiro para a direita, deixando espaço limpo na esquerda */
+    right: -280px; 
     transform: translateY(-50%);
     width: 768px;
     height: 768px;
-    overflow: visible !important; /* Libera qualquer corte no texto/arco */
+    overflow: visible !important;
     pointer-events: none;
     z-index: 5;
 }
