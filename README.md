@@ -5,7 +5,7 @@ Olá, sejam bem-vindo ao meu portfólio! Me chamo Thainá Costa, e atualmente es
 Acesse <a href= "https://thainacosta2.github.io/Portfolio/" target="_blank"> Meu Portfólio</a> 🌐
 
 <div>
-  <img src="Portfolio Imagens/portfóliohome.png" width="790px">
+  <img src="Portfolio Imagens/portfoliohome.png" width="790px">
 </div>
 
 # Sobre o Projeto 💻</> 
