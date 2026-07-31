@@ -13,7 +13,7 @@
 
 :root {
     --bg-color: #fdfdfd;
-    --second-bg-color: #f1f1f1; /* Tom levemente acinzentado pro modo claro */
+    --second-bg-color: #f1f1f1;
     --text-color: #333;
     --main-color: #bd0065;
     --white-color: #fdfdfd;
@@ -21,8 +21,8 @@
 }
 
 .dark-mode {
-    --bg-color: #0b061f;          /* Fundo principal bem escuro */
-    --second-bg-color: #170d38;   /* Fundo dos cards (um pouco mais claro para destacar) */
+    --bg-color: #0b061f;          
+    --second-bg-color: #170d38;  
     --text-color: #fdfdfd;
     --shadow-color: rgba(0, 0, 0, .7);
 }
@@ -36,6 +36,8 @@ html {
 body {
     background: var(--bg-color);
     color: var(--text-color);
+    width: 100%;
+    overflow-x: hidden;
 }
 
 section {
@@ -164,8 +166,8 @@ span {
 .home {
     display: flex;
     align-items: center;
-    position: relative; /* Garante o alinhamento correto */
-    overflow: hidden;  /* CORTA O VAZAMENTO PARA A SEÇÃO "SOBRE" */
+    position: relative;
+    overflow: hidden;  
 }
 
 .home .home-content {
@@ -257,18 +259,18 @@ span {
 .home .profession-container .overlay {
     position: absolute;
     top: 0;
-    right: -100px; /* Avança 100px para fora da tela na direita, fechando a fresta branca */
+    right: -100px;
     width: 0;
     height: 0;
-    border-top: 500px solid var(--main-color); /* Aumentado para cobrir toda a altura */
-    border-right: 500px solid var(--main-color); /* Aumentado para encostar e passar da borda */
-    border-bottom: 500px solid var(--main-color); /* Aumentado para cobrir toda a altura */
+    border-top: 500px solid var(--main-color); 
+    border-right: 500px solid var(--main-color); 
+    border-bottom: 500px solid var(--main-color); 
     border-left: 500px solid transparent;
 }
 
 .home-img img {
     position: absolute;
-    bottom: 2rem; /* <--- Altere aqui para subir o GIF */
+    bottom: 2rem;
     right: 0;
     width: 100%;
     pointer-events: none;
@@ -363,7 +365,7 @@ span {
 
 .services-container .services-box {
     flex: 1 1 30rem;
-    background: var(--second-bg-color); /* <--- Troque aqui! */
+    background: var(--second-bg-color);
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
     box-shadow: 0 .1rem .5rem var(--shadow-color);
@@ -428,7 +430,7 @@ span {
     display: flex;
     border-radius: 2rem;
     background: var(--bg-color);
-    box-shadow: 0 0 1rem var(--shadow-color); /* Usando a sombra dinâmica do tema */
+    box-shadow: 0 0 1rem var(--shadow-color);
     overflow: hidden;
 }
 
@@ -546,7 +548,7 @@ span {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background: var(--second-bg-color); /* <--- Troque aqui! */
+    background: var(--second-bg-color);
     border-radius: 2rem;
     box-shadow: 0 .1rem .5rem var(--shadow-color);
     padding: 3rem 5rem;
@@ -559,7 +561,7 @@ span {
     height: 14rem;
     object-fit: cover;
     border-radius: 50%;
-    border: .5rem solid var(--second-bg-color); /* <--- Atualize para var(--second-bg-color) */
+    border: .5rem solid var(--second-bg-color);
     outline: .5rem solid var(--main-color);
 }
 
@@ -587,8 +589,8 @@ span {
 }
 
 .testimonial-box .swiper-pagination-bullet {
-    background: var(--text-color); /* Fica escura no modo claro, e branca no modo escuro! */
-    opacity: 0.3; /* Deixa transparente para não chamar muita atenção */
+    background: var(--text-color);
+    opacity: 0.3;
     transition: .3s ease;
 }
 
@@ -759,49 +761,77 @@ span {
     }
 }
 
+/* ==================== RESPONSIVIDADE (MEDIA QUERIES) ==================== */
+
 @media (max-width: 768px) {
     #menu-icon {
-        display: block;
+    display: block;
+    position: absolute;
+    right: 3%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3.6rem;
+    color: var(--text-color);
+    cursor: pointer;
+    }
+
+    .header {
+    padding: 2rem 3%;
     }
 
     #darkMode-icon {
-        position: absolute;
-        right: 7rem;
-        font-size: 2.6rem;
-        color: var(--text-color);
-        margin-bottom: .1rem;
+    position: absolute;
+    right: 7rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2.6rem;
+    color: var(--text-color);
+    }
+
+    .header.sticky #darkMode-icon,
+    .header.sticky #menu-icon {
+        color: var(--white-color) !important;
     }
 
     .navbar {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        padding: 1rem 3%;
-        background: var(--bg-color);
-        border-top: 1rem solid rgba(0, 0, 0, .2);
-        box-shadow: 0.5rem 1rem rgba(0, 0, 0, .1);
-        display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 1rem 3%;
+    background: var(--bg-color);
+    border-top: .1rem solid rgba(0, 0, 0, .2);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+    display: none;
+    z-index: 999;
     }
 
     .navbar.active {
-        display: block;
+    display: block !important;
     }
 
     .navbar a {
-        display: block;
-        font-size: 2rem;
-        margin: 3rem 0;
-        color: var(--text-color);
+    display: block;
+    font-size: 2rem;
+    margin: 2rem 0;
+    color: var(--text-color) !important;
+    text-align: center;
     }
 
-    .navbar a:nth-child(1),
-    .navbar a:nth-child(2) {
-        color: var(--text-color);
+    .header.sticky .navbar {
+    background: var(--main-color) !important;
+    }
+
+    .header.sticky .navbar a {
+    color: var(--white-color) !important; 
+    }
+
+    .header.sticky .navbar a.active {
+    color: #ffd1dc !important; 
     }
 
     .navbar a.active {
-        color: var(--main-color);
+    color: var(--main-color) !important;
     }
 
     .navbar a::before {
@@ -809,52 +839,95 @@ span {
     }
 
     .home {
-        padding: 0 3% 23rem;
-        justify-content: center;
-        text-align: center;
+    min-height: 100vh;
+    padding: 10rem 3% 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    }
+
+    .home::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 18rem; /* Ajuste a altura total da faixa aqui */
+    background: var(--main-color);
+    /* Desenha a forma de "envelope" invertida */
+    clip-path: polygon(0 100%, 0 0, 50% 40%, 100% 0, 100% 100%);
+    z-index: 1;
+    }
+
+    /* Oculta a animação, o círculo e o texto Dev Júnior no mobile */
+    .home .profession-container,
+    .home .profession-box,
+    .home .overlay {
+        display: none !important;
+    }
+
+    /* Ajuste do texto e dos botões */
+    .home-content h1 {
+        font-size: 3.8rem;
     }
 
     .home-content h3 {
-        font-size: 2.6rem;
+        font-size: 2.2rem;
     }
 
-    .home-content h1 {
-        font-size: 5rem;
+    .home-content p {
+        font-size: 1.5rem;
+        margin: 1.5rem 0 2rem;
+    }
+
+    .home-content .social-media {
+        margin-bottom: 2.5rem;
     }
 
     .home-content .social-media a {
-        margin: 2.5rem .75rem 3rem;
+        margin: 0 .8rem;
     }
 
-    .home .profession-container {
-        left: 0;
-        width: 100%;
-        height: 100%;
+    /* Garante que o botão de Download CV visível e destacado */
+    .home-content .btn {
+        display: inline-block;
+        margin-top: 1rem;
     }
 
-    .home .profession-container .profession-box {
-        position: fixed;
-        top: 60%;
-        left: 0;
-        border-radius: 0;
-        width: 100%;
+    /* Permite que o menu do botão 'vaze' para fora sem ser cortado */
+    .home,
+    .home-content {
+        overflow: visible !important;
+        position: relative;
+        z-index: 10;
     }
 
-    .home .profession-box .profession {
-        padding: 0 10px;
-        left: auto;
-        transform-origin: 0;
+    /* Ajusta a caixinha do dropdown do botão para abrir por cima de tudo no celular */
+    .home-content .dropdown,
+    .home-content .btn-container,
+    .home-content .download-cv-dropdown {
+        position: relative;
+        z-index: 100;
     }
 
-    .home .profession-container .overlay {
-        position: fixed;
-        top: 70rem;
-        left: 50%;
-        right: 0;
-        transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
-        border-width: 23.9rem;
+    /* Garante que o menu suspenso/lista flutue em cima das outras seções */
+    .home-content .dropdown-menu,
+    .home-content .options { 
+        position: absolute !important;
+        top: 100% !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        z-index: 999 !important;
+        background: var(--bg-color);
+        box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 0.2);
+        border-radius: .8rem;
+        width: 200px;
     }
 
+    /* --- SOBRE MIM E OUTRAS SEÇÕES --- */
     .about {
         flex-direction: column-reverse;
         text-align: center;
@@ -866,7 +939,7 @@ span {
 
     .about-img img {
         width: 70vw;
-        margin-top: -2rem;
+        margin-top: 2rem;
     }
 
     .services h2,
@@ -911,7 +984,7 @@ span {
     }
 
     .home {
-        padding: 0 3% 30rem;
+        padding: 9rem 3% 3rem;
     }
 
     .contact form .input-box input {
@@ -922,11 +995,11 @@ span {
 @media (max-width: 365px) {
     .home-content p {
         text-align: center;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
     
     .about-img img {
-        width: 90vw;
+        width: 85vw;
     }
 
     .footer {
@@ -942,45 +1015,17 @@ span {
     .about-content p {
         text-align: left;
     }
-    
-    .about-content p {
-        font-size: 2rem;
-    }
-
-    .services-box p {
-        text-align: center;
-        font-size: 2rem;
-    }   
-
-    .portfolio-layer h4,
-    .certificado-layer h4 {
-        font-size: 4rem;
-    }
-
-    .portfolio-layer p,
-    .certificado-layer p {
-        font-size: 2rem;
-    }
-
-    .testimonial-slide h3 {
-        font-size: 3rem;
-    }
-
-    .testimonial-slide p {
-        font-size: 1.8rem;
-        text-align: justify;
-    }
 }
 
-/* Container do Arco e da Profissão - SOLUÇÃO DEFINITIVA */
+/* Container do Arco e da Profissão */
 .profession-container {
     position: absolute;
     top: 50%;
-    right: -280px; /* Puxa o arco inteiro para a direita, deixando espaço limpo na esquerda */
+    right: -280px;
     transform: translateY(-50%);
     width: 768px;
     height: 768px;
-    overflow: visible !important; /* Libera qualquer corte no texto/arco */
+    overflow: visible !important;
     pointer-events: none;
     z-index: 5;
 }
@@ -1003,7 +1048,7 @@ span {
     flex-direction: column;
     align-items: center;
     color: var(--main-color, #c20067);
-    background-color: #ffffff; /* Fundo branco pra cobrir a linha sob as letras */
+    background-color: #ffffff;
     padding: 6px 12px;
     border-radius: 8px;
     pointer-events: auto;
@@ -1017,11 +1062,11 @@ span {
     width: 100%;
     padding: 1.5rem;
     font-size: 1.6rem;
-    color: var(--text-color); /* Texto digitado se adapta ao tema */
-    background: var(--bg-color); /* Acompanha o fundo ou tom de contraste */
+    color: var(--text-color); 
+    background: var(--bg-color);
     border-radius: .8rem;
     margin: .7rem 0;
-    border: .1rem solid rgba(255, 255, 255, 0.1); /* Borda sutil para dar contorno */
+    border: .1rem solid rgba(255, 255, 255, 0.1);
     outline: none;
 }
 
@@ -1029,19 +1074,19 @@ span {
 .contact form input::placeholder,
 .contact form textarea::placeholder {
     color: var(--text-color);
-    opacity: 0.6; /* Fica legível no modo claro e no escuro */
+    opacity: 0.6; 
 }
 
 /* MODO ESCURO (Garante destaque das caixas de texto no fundo azul escuro) */
 body.dark-mode .contact form input,
 body.dark-mode .contact form textarea {
-    background: #140d36; /* Tom levemente mais claro que o fundo geral para destacar o card */
-    border: .1rem solid rgba(255, 255, 255, 0.15); /* Borda suave destacando as caixas */
+    background: #140d36;
+    border: .1rem solid rgba(255, 255, 255, 0.15);
     color: #fdfdfd;
 }
 
 /* Quando o usuário clica para digitar (Efeito Foco) */
 .contact form input:focus,
 .contact form textarea:focus {
-    border-color: var(--main-color); /* Borda acende em rosa ao clicar */
+    border-color: var(--main-color);
 }
