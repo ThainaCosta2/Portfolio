@@ -29,7 +29,7 @@ O site foi planejado do zero com foco em práticas modernas de **Front-end**, al
 
 * **🏠 Início:** Apresentação inicial rápida e convite à exploração do site.
 * **👤 Sobre Mim:** Um resumo da minha formação em Gestão da TI, pós-graduação em Ciência de Dados e minha paixão pela área.
-* **⚙️ Especialidades:** Domínio técnico e áreas de foco (Desenvolvimento Front-end, Análise de Dados e Python).
+* **⚙️ Especialidades:** Conhecimento técnico e áreas de foco (Análise de Dados, Desenvolvimento Back-end, Front-end e Python).
 * **📂 Projetos:** Exibição das minhas aplicações práticas, acompanhadas de atalhos diretos para os repositórios no GitHub.
 * **🚀 Habilidades:** Linguagens, frameworks e ferramentas que utilizo na rotina de desenvolvimento.
 * **🎓 Certificados:** Galeria interativa com minhas conquistas acadêmicas e qualificações técnicas.
