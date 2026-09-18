@@ -5,7 +5,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=github&logoColor=white)
 
-> Boas-vindas ao meu espaço web! Aqui apresento minha jornada na tecnologia, minhas competências técnicas e alguns dos principais projetos que desenvolvi
+> Boas-vindas ao meu espaço web! Aqui apresento minha jornada na tecnologia, minhas competências técnicas e alguns dos principais projetos que desenvolvi.
 
 🚀 **[Acesse o meu Portfólio online aqui!](https://thainacosta2.github.io/Portfolio/)**
 
